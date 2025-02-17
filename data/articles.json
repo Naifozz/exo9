@@ -1,0 +1,9 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "title": "Premier article",
+            "content": "Contenu du premier article"
+        }
+    ]
+}
