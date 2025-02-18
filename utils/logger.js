@@ -8,10 +8,6 @@ const __dirname = path.dirname(__filename);
 const ACCESS_LOG = path.join(__dirname, "../logs/access.log");
 const ERROR_LOG = path.join(__dirname, "../logs/error.log");
 
-export async function logRequest(method, url) {
-    console.log(`${new Date().toISOString()} - ${method} ${url}`);
-}
+export async function logRequest(method, url) {}
 
-export async function logError(error) {
-    console.error(`${new Date().toISOString()} - Error: ${error.message}`);
-}
+export async function logError(error) {}
